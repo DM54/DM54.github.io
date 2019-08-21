@@ -65,7 +65,7 @@ nav a {
 
 .main1 {
     margin-left: 100px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
 
@@ -89,7 +89,7 @@ nav a {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: transparent; 
+    background-color: white;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
