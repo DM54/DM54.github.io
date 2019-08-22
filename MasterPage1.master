@@ -4,18 +4,37 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta charset="utf-8" />    
-    <title>Master page1</title>
+    <title></title>
     <asp:ContentPlaceHolder id="head" runat="server" />
-</head>
-<body>
+    <link href="./styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /><!--integrity ="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="./navbar.js"></script>
     
-    <form id="form1" runat="server">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" > </script>
+</head>
+<body style="height:1500px; background-color:thistle">
+    
+    
+          <div class="sidenav">
+            <div class="lists">
+                <img src="images/Dyana.jpg" alt="me" class="rounded-circle z-depth-2, jm" />
+                <h4 class="myname">Dyana Monroy</h4>
+                
+                <a href="#"><i class="fa fa-fw fa-home"></i>About</a>
+                <a href="Default1.aspx">Resume</a>
+                <a href="Default2.aspx">Projects</a>
+               <!-- <a href="#">Experience</a>-->
+                <a href="Default3.aspx"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+
+                <!-- </div>-->
+            </div>
+        </div>
+             <h4>hellloooo I am master page </h4>
       
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"> 
-           
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
+    
 </body>
 </html>
