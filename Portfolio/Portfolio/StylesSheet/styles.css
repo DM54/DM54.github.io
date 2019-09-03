@@ -5,13 +5,17 @@
     background-color: black;
     border-radius: 8px;
 }
-
+.defaultmain {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 70px 30px;
+    font-size: 28px;
+}
 body {
     height: 1500px;
-    background-color: whitesmoke;
-    background-image: url(images/rabbit.jpg);
+    background-color: lightblue;
+    /*background-image: url(images/rabbit.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 .myname {
@@ -83,13 +87,13 @@ nav a {
 /* The sidebar menu */
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
+    height: auto; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: lavender;
+    background-color: transparent;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
