@@ -85,7 +85,20 @@ nav a {
 
 
 /* The sidebar menu */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
 
+    /* Style the active class, and buttons on mouse-over */
+    .active, .btn:hover {
+        background-color: #666;
+        color: white;
+    }
 .sidenav {
     height: auto; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */

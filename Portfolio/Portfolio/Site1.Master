@@ -23,13 +23,13 @@
             <div class="lists">
                 <img src="pic/Dyana.jpg" alt="me" class="rounded-circle z-depth-2, jm" />
                 <h4 class="myname">Dyana Monroy</h4>
-                
-                <a href="index.html"><i class="fa fa-fw fa-home"></i>About</a>
-                <a href="Default1.aspx">Resume</a>
-                <a href="Default2.aspx">Projects</a>
+                <div id="myDIV">
+                <a href="index.html" class="btn"><i class="fa fa-fw fa-home"></i>About</a>
+                <a href="Default1.aspx" class="btn active">Resume</a>
+                <a href="Default2.aspx" class="btn">Projects</a>
                <!-- <a href="#">Experience</a>-->
-                <a href="Default3.aspx"><i class="fa fa-fw fa-envelope"></i>Contact</a>
-
+                <a href="Default3.aspx" class="btn"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+                    </div>
                 <!-- </div>-->
             </div>
         </div>
