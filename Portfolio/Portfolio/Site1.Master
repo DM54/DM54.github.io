@@ -4,9 +4,13 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta charset="utf-8" />    
-    <title></title>
+    <title>Dyana Monroy Portfolio</title>
     <asp:ContentPlaceHolder id="head" runat="server" />
     <link href="StylesSheet/styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+    <link rel="manifest" href="/site.webmanifest"/>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /><!--integrity ="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"--> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -16,7 +20,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" > </script>
 </head>
-<body>
+<body >
     
     
           <div class="sidenav">
@@ -25,14 +29,15 @@
                 <h4 class="myname">Dyana Monroy</h4>
                 <div id="myDIV">
                 <a href="index.html" class="btn"><i class="fa fa-fw fa-home"></i>About</a>
-                <a href="Default1.aspx" class="btn active">Resume</a>
-                <a href="Default2.aspx" class="btn">Projects</a>
+                <a href="Default1.aspx" class="btn active"><i class="fa fa-file"></i>Resume</a>
+                <a href="Default2.aspx" class="btn"><i class="fa fa-file-code"></i>Projects</a>
                <!-- <a href="#">Experience</a>-->
                 <a href="Default3.aspx" class="btn"><i class="fa fa-fw fa-envelope"></i>Contact</a>
                     </div>
                 <!-- </div>-->
             </div>
         </div>
+
              
       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 

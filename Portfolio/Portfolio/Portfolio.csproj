@@ -71,6 +71,7 @@
     <Content Include="JavaScript\navbar.js" />
     <Content Include="pic\Dyana2.jpg" />
     <Content Include="pic\Dyana.jpg" />
+    <Content Include="pic\plants.jpg" />
     <Content Include="StylesSheet\defaultform1.css" />
     <Content Include="StylesSheet\styles.css" />
     <Content Include="StylesSheet\defaultform2.css" />

@@ -13,9 +13,9 @@
 body {
     height: 1500px;
     background-color: lightblue;
-    /*background-image: url(images/rabbit.jpg);
+    
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 .myname {
