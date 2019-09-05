@@ -7,10 +7,11 @@
    
         <div class="topnav fixed-top" id="myTopnav myDIV">
   <!--<a href="index.html">Home</a>-->
+   
   <a href="#skills" class="btn">Skills</a>
  <a href="#experience" class="btn">Experience</a>
   <a href="#education" class="btn active">Education</a>
- 
+ <!-- <img src="pic/logo-via-logohub.png" alt="logo" class="logoname"/>-->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>

@@ -13,8 +13,8 @@
    <br />
   <!--<div >-->
     <a href="#"><i class="fa fa-phone"></i>(347)-357-9058</a> <br/>
-    <a href="#"><i class="fa fa-envelope"></i>Dyana.Monroy17@live.com</a> 
-    <a href="https://github.com/DM54"><i class="fa fa-github"></i>github.com/DM54</a>
+    <a href="#"><i class="fa fa-envelope"></i>Dyana.Monroy17@live.com</a> <br />
+    <a href="https://github.com/DM54"><i class="fa fa-github"></i>github.com/DM54</a><br/>
     <a href="#"><i class="fa fa-linkedin"></i></a>  
    
   <!--</div>-->
