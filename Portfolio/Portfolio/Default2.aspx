@@ -4,14 +4,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="defaultmain">
-     
-<h2>Responsive Column Cards</h2>
-<p>Resize the browser window to see the effect.</p>
+     <div class="jumbotron" style="background-image:url(pic/code.png)">
+<h2 style="text-align:center; color:white"><i class="fas fa-laptop-code"></i>Projects</h2>
 
+         </div>
 <div class="row">
   <div class="column">
     <div class="card">
-      <h3>project 1</h3>
+      <h3>Travel-Site</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -19,7 +19,7 @@
 
   <div class="column">
     <div class="card">
-      <h3>project 2</h3>
+      <h3>Basic Calculator</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -27,7 +27,7 @@
   
   <div class="column">
     <div class="card">
-      <h3>project 3</h3>
+      <h3>MVC Calculator</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -35,12 +35,48 @@
   
   <div class="column">
     <div class="card">
-      <h3>project 4</h3>
+      <h3>EvilCraft</h3>
       <p>Some text</p>
       <p>Some text</p>
     </div>
   </div>
 </div>
+ <br />
+        <div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>My Portfolio</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Front-End Pets for Adoption</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Front-End Photo Gallery</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Front-End Candy Store</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+    
+
     
         </div>
   

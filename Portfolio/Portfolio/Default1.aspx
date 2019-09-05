@@ -18,8 +18,14 @@
 </div>
 
 <div class="defaultmain">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
+    <div class="jumbotron">
+  <h2 style="text-align:center"> Resume</h2>
+  
+        </div>
+
+    <h5> Education</h5>
+    <p></p>
+
 </div>
 
     <script>
