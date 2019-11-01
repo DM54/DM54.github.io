@@ -2,7 +2,9 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.links {
+    font-size: 5px;
+}
 .logoname {
     float: right;
     display: block;
