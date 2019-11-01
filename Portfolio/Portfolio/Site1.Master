@@ -46,7 +46,7 @@
                 <a href="Default1.aspx" ><i class="fa fa-file"></i>Resume</a>
                 <a href="Default2.aspx" ><i class="fas fa-file-code"></i>Projects</a>
                <!-- <a href="#">Experience</a>-->
-                <a href="Default3.aspx" ><i class="fa fa-fw fa-envelope"></i>Contact</a>
+               <!-- <a href="Default3.aspx" ><i class="fa fa-fw fa-envelope"></i>Contact</a>-->
                     
                 <!-- </div>-->
             </div>
