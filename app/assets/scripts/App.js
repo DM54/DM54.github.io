@@ -3,17 +3,10 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
-import ClientArea from './modules/ClientArea'
 
-//react related code goes here
-import React from 'react'
-import ReactDOM from 'react-dom'
-//import React components that we created
-import MyAmazingComponent from './modules/MyAmazingComponent'
 
-ReactDOM.render(<MyAmazingComponent />, document.querySelector("#my-react-example"))
 
-new ClientArea();
+
 let stickyHeader = new StickyHeader();
 let mobileMenu = new MobileMenu();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
