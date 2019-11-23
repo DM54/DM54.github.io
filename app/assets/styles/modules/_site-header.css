@@ -14,7 +14,7 @@
 		background-color: rgba($mainBlue, .3);
 
 		&--dark{
-			background-color: rgba(23,51,72,.85);
+			background-color: linen;
 		}
 	}
 	
@@ -35,12 +35,13 @@
 		background-color: $mainBlue;
 		padding: 13px 29px;
 		@mixin atMedium{
-			left: auto;
-			transform: translateX(0);
-			padding: 25px 36px;
+			left: -23%;
+			transform: scale(.39);
+		/*	transform: translateX(0);
+			//padding: 10px 10px;
 			.site-header--dark & {
-				transform: scale(.55);
-			}
+				transform: scale(.44);
+			}*/
 		}
 	}
 
