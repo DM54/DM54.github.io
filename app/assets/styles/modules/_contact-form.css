@@ -1,0 +1,31 @@
+.contact-form{
+
+    &__inputs{
+        width: 600px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        color: black;
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    &__inputs-submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 20px;
+     
+
+        &:hover{
+            background-color: #f44336;
+            cursor: pointer;
+        }
+    }
+
+}
