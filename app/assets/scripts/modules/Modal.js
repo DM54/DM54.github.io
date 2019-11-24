@@ -42,12 +42,13 @@ class Modal{
         <p class="modal__description">Hello, you may submit an message here. </p>
       
         <div class="contact-form">
-            <form id="contact-form" method="post" action="">
-                <input name="name" type="text" class="contact-form__inputs" placeholder ="Your Name" required><br>
-                <input name="email" type="email" class="contact-form__inputs" placeholder ="Your Email" required><br>
+            <form id="contact-form" action="https://formspree.io/dyana.monroy17@live.com"
+            method="POST">
+                <input name="name" type="text" class="contact-form__inputs name" placeholder ="Your Name" required><br>
+                <input name="email" type="email" class="contact-form__inputs email" placeholder ="Your Email" required><br>
 
-                <textarea name="message" class="contact-form__inputs" placeholder="Message" rows="4" required></textarea><br>
-
+                <textarea name="message" class="contact-form__inputs message" placeholder="Message" rows="4" required></textarea><br>
+                <div class="status"></div>
                 <input type="submit" class="contact-form__inputs-submit" value="SEND MESSAGE">
             </form>
         </div>
