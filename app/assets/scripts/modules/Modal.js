@@ -37,7 +37,7 @@ class Modal{
         document.body.insertAdjacentHTML('beforeend', `
         <div class="modal">
     <div class="modal__inner">
-      <h2 class="section-title section-title--blue section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Contact Me <strong>Here</strong></h2>
+      <h2 class="section-title section-title--blue section-title--less-margin"> Contact Me <strong>Here</strong> <i class="far fa-comment section-title__icon"></i></h2>
       <div class="wrapper wrapper--narrow">
         <p class="modal__description">Hello, you may submit an message here. </p>
       

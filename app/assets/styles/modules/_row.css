@@ -80,7 +80,11 @@
    }
  
   &--t-padding{
-      padding-top: 80px;
+     padding-top: 30px ;
+
+      @mixin  atMedium {
+        padding-top: 20px;
+      }
     }
 
    
