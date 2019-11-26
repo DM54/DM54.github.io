@@ -2,13 +2,23 @@
   background-color: rgba(255, 255, 255, .8);
   padding: 0 18px 1px 18px; 
   margin-bottom: 30px; 
+  text-align: center;
+
+  background-color: transparent ;
+  font-weight: 300;
  @mixin atLarge{
-	
-  margin-bottom: 20px;
+  text-align: center;
+  background-color: transparent ;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
   margin-right: 30px;
   padding: 0 1rem 1px 1rem;
     }
 
+	&__p{
+	line-height: 1.9rem;
+	}
   &__photo{ /* to make the photo into a circle*/ 
   	border-radius: 80px;
   	overflow: hidden;
@@ -21,12 +31,15 @@
   }
 
   &__title{
-  	color: $mainBlue; 
+	  color: $mainBlue; 
+	text-decoration: none;
   	text-align: center;
   	font-size: 1.5rem;
   	font-weight: 500;
 	  margin: 0;
 	padding-top: 30px;
+
+
   }
 
   &__subtitle{
@@ -44,9 +57,9 @@
    /* @mixin atMedium{
 		margin-top: -20%;	 
 	}*/
-	@mixin atLarge {
+	/*@mixin atLarge {
      margin-top: -10%;
-	}
+	}*/
 
   }
 
