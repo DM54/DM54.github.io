@@ -19,7 +19,7 @@ color: #FFF;
 
   @mixin atLarge{
 
-	  //background: url('assets/images/testimonials-bg.jpg') top center no-repeat;
+	    background: #fff top center no-repeat;
 		background-size: cover; /*it is covering the whole thing that
 	is in the div testimonials*/ 
 	  }
