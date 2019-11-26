@@ -1,6 +1,7 @@
 .contact-form{
-
+   
     &__inputs{
+      
         width: 600px;
         background: transparent;
         border: none;

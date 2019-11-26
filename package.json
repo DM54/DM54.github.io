@@ -17,7 +17,8 @@
     "nodemailer-mailgun-transport": "^1.4.0",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-paginate": "^6.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",

@@ -3,7 +3,7 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
-import jquery from 'jquery'
+import pagination from './modules/pagination'
 
 let stickyHeader = new StickyHeader();
 let mobileMenu = new MobileMenu();
@@ -28,6 +28,8 @@ if(module.hot){
   module.hot.accept()
 }
 
+
+  
 
 
 
