@@ -13,6 +13,11 @@ color: #FFF;
 
 }
 
+&--lightpink{
+	background-color:  #ff8585;
+	color: #FFF;
+}
+
 &--testimonials{
  background-color: #e0e6ef;
 
