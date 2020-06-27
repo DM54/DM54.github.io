@@ -3,8 +3,10 @@
 	
 	padding-bottom: 2.5rem;
 
+
 	@mixin atSmall{
-     padding-left: 94px;
+	/*this is for destop & laptop not cellphones!
+	 padding-left: 60px;*/
 	}
 
 	&__icon{
@@ -30,7 +32,7 @@
 		@mixin atSmall{
 	    margin-top: 1em;
 		font-size: 1.875rem;
-		text-align: left;
+		text-align: center;
 	    }
 	}
 }
