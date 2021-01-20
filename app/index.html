@@ -11,11 +11,17 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
   <link rel="manifest" href="/app/site.webmanifest">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="https://kit.fontawesome.com/3254a62c6c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrapper">
+  <header>
+ <!-- <header class="site-header">-->
+  <!--  <div class="wrapper">
       <div class="site-header__logo">
           <img src="./images/logo-via-logohub.png">
       </div>
@@ -40,11 +46,209 @@
           </ul>
           </nav>
       </div> 
-    </div>
+    </div>-->
   </header>
 
-  <div id="About" class="page-section" data-matching-link="#About-link">
-    <div class="wrapper">
+ <!-- <div id="About" class="page-section" data-matching-link="#About-link">-->
+     <!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+    <!--left column-->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+    <picture >
+      <source sizes="404px" data-srcset=".\images\me.jpg 404w, .\images\me-hi-dpi.jpg 808w" media="(min-width: 1020px)">
+    <source sizes="320px" data-srcset=".\images\me-portrait.jpg 382w, .\images\me-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)" >
+    <img class="lazyload" data-srcset=".\images\me-landscape.jpg 800w, .\images\me-landscape-hi-dpi.jpg 1600w" alt="me" style="width:100%">
+  </picture>
+  <div class="w3-display-bottomleft w3-container w3-text-white" style="position: absolute;">
+    <h2>Dyana Monroy</h2>
+    <div class="icon" style="position: absolute; left: 420px; top: 1px;">
+      <a href=" https://github.com/DM54"><i class="fab fa-github-alt"></i></a>
+      <a href="https://repl.it/@DM54" ><img src=".\icon\favicon-16x16.png" alt="repli_icon"></a>
+      <a href="https://wayfindr.com/jobseeker/dyana-monroy-a27988ac"><img src="./icon/wayfindricon/favicon-16x16.png" alt="wayfindr_icon"></a>
+      
+    </div>
+  </div>
+        </div>
+        
+    
+  
+ <div class="w3-container">
+  <h2 class="headline headline--no-t-margin w3-text-teal">About Me</h2>
+                <p>I am a recent graduate at Hofstra University in May 2019 with a Bachelor Of Arts with a major in Computer Science.</p>
+                <p>I chose to pursue a degree in Computer Science for my passion in Technology. <br>
+                  Also, my interests is making/updating websites, games and mobile apps. 
+                </p>
+                <p> Addition to my interests above, I learn new skills which is Advertising & Marketing; for example: Email Marketing, Social Media Marketing, SEO.
+                  <br> 
+                   </p>
+                   <hr>
+                   <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                   <p>
+                    •	JavaScript 
+                    •	Social media marketing
+                    •	 Email Marketing 
+                    •	Web Design
+                    •	Communications 
+                    •	Programming
+                    •	 Node.js 
+                    •	NPM 
+                    •	webpack
+                    •	Netlify 
+                    •	BEM 
+                    •	Swift 
+                    •	Java 
+                    •	React
+                    •	 HTML & CSS
+                    •	 Python
+                    •	 C/C++ 
+                    •	Marketing
+                    •	 Advertising
+                    •	Image Editing 
+                    •	Adobe Photoshop 
+                    •	Microsoft Word 
+                    •	Computer competency 
+                    •	Adaptability
+                    •	Market Research
+                        </p>
+                        <hr>
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+                        <p>English</p>
+                        <p>Spanish</p>
+                   </div>
+                  </div>          
+      
+<!-- End Left Column -->
+ 
+      </div>
+   
+
+  <!-- Right Column -->
+  <div class="w3-twothird">
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+      
+<div class="w3-container">
+  <!--<h2>Tabs in a Grid</h2>-->
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openmineinfo(event, 'work Experience');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Work Experience</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openmineinfo(event, 'Education');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Education</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openmineinfo(event, 'Certificates');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Certificates</div>
+    </a>
+  </div>
+
+  <div id="work Experience" class="w3-container mineinfo" style="display:none">
+    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+    <div class="w3-container"> 
+      <h4 style="padding: 0 1.5rem; font-size: medium;"> <strong>  CMIT SOLUTIONS OF TRIBECA </strong>
+      <div style="padding-right: 1.5rem; text-align: right; font-size: small ;">  02 2020 – PRESENT <br>
+        FULL-TIME </div>  </h4>
+      
+   <p style="padding: 0 1.5rem;">                                                                     
+      WEB DEVELOPMENT INTERN <br>
+      <ul style="font-size: .9rem; line-height: 1.5rem; font-weight: 300; text-align: start;">
+        <li>
+          Responsible for web design, making subscription, and contact forms on WordPress 
+        </li>
+         <li>
+          Curated websites for social media and email campaigns using constant contact
+        </li>
+        <li>
+          Organized blog content with links and images on WordPress 
+        </li>
+        <li>
+          Organized blog on social media and google business page 
+        </li>
+        <li>
+          Manage & organized social media ads 
+        </li>
+        <li>
+          Collaborated with Organizein team to create new concept for social media ads & campaigns 
+
+        </li>
+      </ul>
+    </p>
+    </div>
+  </div>
+
+  <div id="Education" class="w3-container mineinfo" style="display:none">
+    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+    <div class="w3-container"> 
+      
+      <h4 style="padding: 0 1.5rem; font-size: medium;">
+        HOFSTRA UNIVERSITY  <div style="padding-right: 1.5rem; text-align: right; font-size: small;">
+          09 2015 - 05 2019
+        </div>
+    </h4>           
+       
+        <p style="padding: 0 1.5rem; font-size: small;">
+        BACHELOR OF ARTS: COMPUTER SCIENCE, GPA: 3.0 
+       
+        <ul style="font-size: .9rem; line-height: 1.5rem; font-weight: 300; text-align: start;">
+          <li>
+            Coursework in Software Engineering, Web Application and Mobile Application
+          </li>
+        </ul>
+      </p>
+      
+      <h4 style="padding: 0 1.5rem; font-size: medium;">
+    BISHOP KEARNEY HIGH SCHOOL  <div style="padding-right: 1.5rem; text-align: right; font-size: small;">  09 2011 - 06 2015</div>                                                                
+   <p style="font-size: small;"> GPA: 3.0 </p>  </h4>
+   
+
+    <h4 style="padding: 0 1.5rem; font-size: medium;">HACK REACTOR  <div div style="padding-right: 1.5rem; text-align: right; font-size: small;"> 09 2019 - 11 2019</div> 
+       <p style="font-size: small;">HACK REACTOR PREMIUM PREP</p></h4>
+  
+      
+    <h4 style="padding: 0 1.5rem; font-size: medium;">UDACITY  
+      <div div style="padding-right: 1.5rem; text-align: right; font-size: small;">08 2019 – 09 2019</div>   
+     <p style="font-size: small;"> INTRO TO JAVASCRIPT</p> </h4>
+                                 
+     
+     <h4 style="padding: 0 1.5rem; font-size: medium;"> UDEMY <div div style="padding-right: 1.5rem; text-align: right; font-size: small;"> 01 2019 - 11 2019</div>                                                                                                  
+      <p style="font-size: small;">GIT A WEB DEVELOPER JOB: MASTERING THE MODERN WORKFLOW </p> </h4>
+
+    </div>
+  </div>
+
+  <div id="Certificates" class="w3-container mineinfo" style="display:none">
+    <h2>Certificates</h2>
+    
+  </div>
+</div>
+
+<script>
+function openmineinfo(evt, Myinfo) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("mineinfo");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-border-teal", "");
+  }
+  document.getElementById(Myinfo).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-teal";
+}
+</script>
+
+    </div>
+  </div>
+</div>
+</div>
+
+   <!-- <div class="wrapper">
     
     <div class="row row--gutters">
       <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
@@ -69,15 +273,15 @@
         </div>
      </div>
     </div>
-  </div>
+  </div>-->
 
-  <div id="Resume" class="page-section " data-matching-link="#Resume-link">
+ <!-- <div id="Resume" class="page-section " data-matching-link="#Resume-link">
     <div class="wrapper">
    
     <h2 class="section-title page-section--blue" style=" padding:1.2rem 0; margin: auto;"><i class="fas fa-file-alt section-title__icon"></i> <strong> Resume </strong></h2>
-      <div class="row row--gutters-large generic-content-container">
+      <div class="row row--gutters-large generic-content-container">-->
         <!--<div class="row__medium-6">-->
-          <div class="feature-item">
+         <!--- <div class="feature-item">
               <div style="background-color:#e0e0eb; opacity: 90%; padding: 10px 10px; border: #bf80ff solid; margin-top: 10px;">
               <h3 class="feature-item__title"><strong>Education</strong></h3>
 
@@ -114,7 +318,7 @@
               <p>GIT A WEB DEVELOPER JOB: MASTERING THE MODERN WORKFLOW </p> </h4>
 
 
-              </p>
+              </p>-->
               
               <!--<h4 style="font-weight: 300;">HOFSTRA UNIVERSITY   09/2015 TO 05/2019</h4>
                <h5 style="font-weight: 300;">BACHELOR OF ARTS: COMPUTER SCIENCE</h5>
@@ -126,7 +330,7 @@
           </div>
           </div>
             
-           <div class="feature-item">
+          <!-- <div class="feature-item">
          <div style="border: gray solid; margin: auto; padding: 10px 10px; background-color: #f2f2f2;">
             <h3 class="feature-item__title"> <strong> Experience </strong></h3>
              <div></div>
@@ -156,7 +360,7 @@
 
                 </li>
               </ul>
-            </p>
+            </p> -->
            <!-- <ul ">
               <li>As an intern, I learn Advertising & Marketing such as Email Marketing, Social Media Marketing and SEO</li>
               <li>Also worked on updating websites; webpages, updating Contact forms, editing Blogs, and making subscribe forms for new leads</li>
@@ -167,9 +371,9 @@
            </div>
         
           <!--</div>-->
-        </div>
+        </div> 
        <!-- <div class="row__medium-6">-->
-          <div class="feature-item">
+        <!--  <div class="feature-item">
           <div style="background-color:  #b3f0ff; margin: auto; padding: 10px 10px; border: #00ccff  solid;">
               <h3 class="feature-item__title">Skills</h3>
                 
@@ -199,7 +403,7 @@
           •	Computer competency 
           •	Adaptability
           •	Market Research
-              </p>
+              </p> -->
              <!-- <ul style="font-size: .9rem; line-height: 1.5rem; font-weight: 300;">
                   <li>JavaScript - Great</li>
                   <li>HTML5, CSS - Great</li>
@@ -211,12 +415,12 @@
                   <li>Social Media Marketing – Great </li>
                   <li>Social Media Advertising – Great </li>
                 </ul>-->
-             </div>
+            </div>
           <!--</div>-->
            </div>
         </div>
       </div>
-   </div>
+   </div> 
 
    <div id="Certificate" class="page-section " data-matching-link="#Certificate-link">
     <div class="wrapper">
@@ -385,12 +589,12 @@
 
   </div>
 
-  <footer class="site-footer">
-    <div class="wrapper">
+  <footer class="site-footer" style="background-color: teal;">
+    <div class="wrapper" >
         <a href=" https://github.com/DM54" class="site-footer__icon"><i class="fab fa-github-alt"></i>GitHub</a>
         <a href="https://repl.it/@DM54" class="site-footer__icon"><img src=".\icon\favicon-16x16.png" alt="repli_icon">Repl.it</a>
         <a href="https://wayfindr.com/jobseeker/dyana-monroy-a27988ac" class="site-footer__icon"><img src="./icon/wayfindricon/favicon-16x16.png" alt="wayfindr_icon">Wayfindr</a>
-        <p><span class="site-footer__text">Copyright &copy; 2021 Dyana's Portfolio.</span> <a href="#" class="btn btn--orange open-modal">Contact</a></p>
+        <p><span class="site-footer__text">Copyright &copy; 2021 Dyana's Portfolio.</span> </p>
     </div>
   </footer>
   
