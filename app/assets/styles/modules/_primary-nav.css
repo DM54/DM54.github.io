@@ -7,7 +7,7 @@
 
 	&--pull-right{
 		position: relative; 
-		left: 250px;
+		left: 50px;
 
 		@mixin atMedium{
 	
