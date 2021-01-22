@@ -49,6 +49,19 @@
       background-color: #ddd;
       border-radius: 5px;
     }
+
+  div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+ 
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
     </style>
   
 </head>
@@ -100,9 +113,9 @@
     <source sizes="320px" data-srcset=".\images\me-portrait.jpg 382w, .\images\me-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)" >
     <img class="lazyload" data-srcset=".\images\me-landscape.jpg 800w, .\images\me-landscape-hi-dpi.jpg 1600w" alt="me" style="width:100%">
   </picture>
-  <div class="w3-display-bottomleft w3-container w3-text-white" style="position: absolute;">
+  <div class="w3-display-bottomleft w3-container w3-text-white" >
     <h2>Dyana Monroy</h2>
-    <div class="icon" style="position: absolute; left: 420px; top: 1px;">
+    <div class="icon primary-nav--pull-right">
       <a href=" https://github.com/DM54"><i class="fab fa-github-alt"></i></a>
       <a href="https://repl.it/@DM54" ><img src=".\icon\favicon-16x16.png" alt="repli_icon"></a>
       <a href="https://wayfindr.com/jobseeker/dyana-monroy-a27988ac"><img src="./icon/wayfindricon/favicon-16x16.png" alt="wayfindr_icon"></a>
@@ -360,6 +373,15 @@ function openmineinfo(evt, Myinfo) {
     The project can be found in my github account. 
    </p>
   
+   
+   <!-- <div class="polaroid">
+      <img src="images/light-yellow-green-shade-creates-calm-background-home.jpg" alt="5 Terre" style="width:90%; margin: 10px 10px 10px 10px;">
+      <div class="container">
+      <p>Cinque Terre</p>
+      </div>
+
+   </div>-->
+   
 </div>
 
 <div id="proj2" class="w3-container pinfo" style="display:none">
@@ -469,12 +491,12 @@ evt.currentTarget.firstElementChild.className += " w3-border-teal";
 </div>
 
 <footer class="site-footer" style="background-color: teal;">
-  <div class="wrapper" >
+  <!--<div class="wrapper" >-->
       <a href=" https://github.com/DM54" class="site-footer__icon"><i class="fab fa-github-alt"></i>GitHub</a>
       <a href="https://repl.it/@DM54" class="site-footer__icon"><img src=".\icon\favicon-16x16.png" alt="repli_icon">Repl.it</a>
       <a href="https://wayfindr.com/jobseeker/dyana-monroy-a27988ac" class="site-footer__icon"><img src="./icon/wayfindricon/favicon-16x16.png" alt="wayfindr_icon">Wayfindr</a>
       <p><span class="site-footer__text">Copyright &copy; 2021 Dyana's Portfolio.</span> </p>
-  </div>
+  
 </footer>
 
    <!-- <div class="wrapper">

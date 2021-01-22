@@ -2,12 +2,28 @@
 	padding-top: 10px;
 	@mixin atMedium{
 		padding-top: 0;
+		
 	}
 
 	&--pull-right{
+		position: relative; 
+		left: 250px;
+
 		@mixin atMedium{
-			float: right;
+	
+		position: relative; 
+		left: 420px;
+		top: 1px;
+
 		}
+
+		@mixin  atSmall {
+	    position: relative; 
+		left: 5px;
+			
+		}
+
+	
 		
 	}
 	
